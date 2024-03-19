@@ -19,6 +19,15 @@ body {
   font-size: 40px;
 }
 
+@media (max-width: 576px) {
+  .home-img {
+    display: none;
+  }
+  .text-resume{
+    text-align: center;
+  }
+}
+
 h1,
 h2,
 h3 {
